@@ -1,0 +1,40 @@
+body {
+  background: #f5f7fa;
+  font-family: Arial, sans-serif;
+}
+
+.hero-section {
+  height: 90vh;
+  background-image: url("https://images.unsplash.com/photo-1523050854058-8df90110c9f1");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+.card {
+  transition: 0.3s;
+  border-radius: 15px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.university-card img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}

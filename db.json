@@ -1,0 +1,26 @@
+{
+  "universities": [
+    {
+      "name": "University of Tirana",
+      "location": "Tirana, Albania",
+      "description": "One of the top public universities in Albania offering modern education and research facilities.",
+      "image": "https://images.unsplash.com/photo-1562774053-701939374585",
+      "id": "JvZG5anm41w"
+    }
+  ],
+  "courses": [
+    {
+      "name": "Computer Science",
+      "duration": "4 Years",
+      "university": "University of Tirana",
+      "id": "uLyjDUBT6vw"
+    },
+    {
+      "name": "Business Administration",
+      "duration": "3 Years",
+      "university": "Epoka University",
+      "id": "qL_9ptDMxFQ"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
