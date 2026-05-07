@@ -38,3 +38,15 @@ body {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
+
+.navbar .nav-link {
+  transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+  color: #ffc107 !important;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.03);
+}
